@@ -1,0 +1,55 @@
+<!doctype html>
+
+	<head>
+
+		<!-- Basics -->
+		
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+		<title>Login</title>
+
+		<!-- CSS -->
+		
+		<link rel="stylesheet" href="css/login-reset.css">
+		<link rel="stylesheet" href="css/login-animate.css">
+		<link rel="stylesheet" href="css/login-styles.css">
+
+	</head>
+
+	<!-- Main HTML -->
+	
+	<body>
+		<!-- Begin Page Content -->
+		<div id="container">
+			<form method="post" action="login">
+				<label for="name">Username:</label>
+				<input type="name" name="username" id="usernameInput">
+				
+				<label for="password">Password:</label>
+				<!--<p><a href="#">Forgot your password?</a>-->
+				<input type="password" name="password">
+				
+				<div id="lower">
+					<input type="checkbox"><label class="check" for="checkbox">Keep me logged in</label>
+					<input type="submit" value="Login" onclick="saveUsername()">
+				</div>
+			</form>
+		</div>
+	</body>
+
+	<script type="text/javascript">
+		function saveUsername() {
+			username = document.getElementById("usernameInput").value;
+			localStorage.username = username;
+		}
+	</script>
+
+</html>
+	
+	
+	
+	
+	
+		
+	

@@ -1,0 +1,109 @@
+            body
+            {
+                background-color: #C1CDCD;
+            }
+            
+            h1
+            {
+                
+                font-weight: 600;
+                font-family: 'Lato';
+                text-align:center; 
+                font-size: 36px;
+                line-height: 40px;
+                padding: 15px 15px 15px 15%;
+                color: #C1CDCD;
+                background-color: #454545;
+                box-shadow: 
+                    inset 0 0 0 1px rgba(53,86,129, 0.4), 
+                    inset 0 0 5px rgba(53,86,129, 0.5),
+                    inset -5px 0 35px #C1CDCD;
+                border-radius: 10px 10px 10px 10px;
+               
+                
+            }          
+            
+            .graph
+            {
+                 padding: 15px 15px 15px 15px;
+            }
+
+            #displaycost
+            {
+                margin: 1em 0 0.5em 0;
+                font-weight: 600;
+                font-family: 'Lato';              
+                font-size: 36px;
+               
+                padding: 15px 15px 15px 15px;
+                color: #C1CDCD;
+                background-color: #454545;
+                box-shadow: 10px 10px 10px #454545;
+                border-radius: 10px 10px 10px 10px;
+            }
+            
+            .button
+            {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #050505;
+            padding: 10px 30px;
+            background:
+                top,
+                #ffffff 0%,
+                #656662 63%,
+                #6c6e70 50%,
+                #3f4142;
+            background
+                linear, left top, left bottom, 
+                from(#ffffff),
+                color-stop(0.63, #656662),
+                color-stop(0.50, #6c6e70),
+                to(#3f4142);
+            border-radius: 14px;
+            border-radius: 14px;
+            border-radius: 14px;
+            border: 2px solid #82d6f0;
+            box-shadow:
+                0px 1px 6px rgba(000,000,000,0.5),
+                inset 0px 0px 4px rgba(255,255,255,1);
+            box-shadow:
+                0px 1px 6px rgba(000,000,000,0.5),
+                inset 0px 0px 4px rgba(255,255,255,1);
+            box-shadow:
+                0px 1px 6px rgba(000,000,000,0.5),
+                inset 0px 0px 4px rgba(255,255,255,1);
+            text-shadow:
+                0px -1px 0px rgba(000,000,000,0.2),
+                0px 1px 0px rgba(255,255,255,0.4);
+            }
+
+           
+           form 
+            {
+            display: block;
+            margin-top: 0em;
+            }
+
+            #demandinfodiv
+            {
+                position: relative;                
+                color: #050505;
+            }
+
+            #info
+            {
+                position: absolute;
+                right: 100px;
+                top: 15px;
+
+            }
+
+            .infotext
+            {
+
+                color: #454545;
+                font-size: 16px;
+            }
+
+           
